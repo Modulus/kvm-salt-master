@@ -9,3 +9,5 @@ enable virtual disk config:
   file.managed:
     - source: salt://config/master/virtual_disk.conf
     - name: /etc/salt/master.d/virtual_disk.conf
+    - user: root
+    - group: root
